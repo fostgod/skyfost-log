@@ -1,6 +1,9 @@
 ## Skyfost-log
 
-ก็เป็นแค่ log เล็กๆนะครับไม่มี โมดูลอะไรเสริม
+เป็นโมดูลสำหรับ log หรือ Error ต่างๆ
+
+โมดูลที่เสริมลงไป:
+[Colors](https://www.npmjs.com/package/colors)
 
 ## วิธีลง
 
@@ -8,15 +11,19 @@
 
 ## วิธีใช้
 ```
-log = require("skyfost-log")
+skylog = require("skyfost-log")
 
-log('<message>')
+console.log(skylog.log('<log>'))
+console.log(skylog.error('<err>'))
 ```
 ## ตัวอย่าง
 ```
-log = require("skyfost-log")
+skylog = require("skyfost-log")
 
-log('Hello World')
+console.log(skylog.log('Hello World'))
+console.log(skylog.error('Hello World'))
 ```
 ## ออกมาเป็น
-25/7/2021 15:0:26 | Hello World
+<p align="center">
+   <img src="https://media.discordapp.net/attachments/832808253381017610/868789765351292948/unknown.png?width=352&height=56" />
+</p>
