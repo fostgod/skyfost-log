@@ -1,8 +1,8 @@
 {
     "name": "skyfost-log", 
-    "version": "1.0.1", 
+    "version": "2.0.3", 
     "description": "log with date", 
-    "main": "src/log.js", 
+    "main": "src/main.js", 
     "scripts": { 
     },
     "repository": { 
@@ -11,8 +11,11 @@
     },
     "keywords": [
       "npm",
-      "skyfost log"
+      "skyfost-log"
     ],
+    "dependencies": {
+        "colors": "^1.4.0"
+    },
     "author": "BeforeSecond",
     "license": "MIT", 
     "bugs": { 
