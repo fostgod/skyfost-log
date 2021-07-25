@@ -1,0 +1,24 @@
+{
+    "name": "skyfost-log", 
+    "version": "1.0.1", 
+    "description": "log with date", 
+    "main": "src/log.js", 
+    "scripts": { 
+    },
+    "repository": { 
+      "type": "git",
+      "url": "git@github.com:fostgod/skyfost-log.git"
+    },
+    "keywords": [
+      "npm",
+      "skyfost log"
+    ],
+    "author": "BeforeSecond",
+    "license": "MIT", 
+    "bugs": { 
+      "url": "https://github.com/fostgod/skyfost-log/issuess"
+    },
+    "homepage": "https://github.com/fostgod/skyfost-log/blob/master/README.md", 
+    "devDependencies": { 
+    }
+  } 
